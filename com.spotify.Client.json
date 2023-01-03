@@ -12,6 +12,7 @@
         "--share=ipc",
         "--socket=x11",
         "--socket=pulseaudio",
+        "--socket=wayland",
         "--share=network",
         "--device=dri",
         "--talk-name=org.gnome.SettingsDaemon.MediaKeys",
@@ -258,13 +259,13 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://api.snapcraft.io/api/v1/snaps/download/pOBIoZ2LrCB3rDohMxoYGnbN14EHOgD7_60.snap",
-                    "sha256": "868dd68c6363987b044730b714b8258ae5524162b617979cd1d75049fabaa322",
-                    "size": 177647616,
+                    "url": "https://api.snapcraft.io/api/v1/snaps/download/pOBIoZ2LrCB3rDohMxoYGnbN14EHOgD7_62.snap",
+                    "sha256": "6b4686b62f8e2b6bd1ccd09ec4902f83f8e9c311d1b407f2b232ca32f1194e59",
+                    "size": 184573952,
                     "x-checker-data": {
                         "type": "snapcraft",
                         "name": "spotify",
-                        "channel": "stable"
+                        "channel": "edge"
                     }
                 }
             ]
